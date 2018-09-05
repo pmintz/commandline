@@ -19,7 +19,9 @@ public class DBACommands {
 		System.out.println("admin commands");
 		System.out.println("sqlplus /nolog");
 		System.out.println("connect /as sysdba");
+		System.out.println("once connected you can run the following:");
 		System.out.println("ALTER USER sys IDENTIFIED BY new_password;");
+		System.out.println("shutdown");
 	}
 
 }
