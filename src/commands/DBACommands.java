@@ -37,7 +37,12 @@ public class DBACommands {
 		System.out.println("select * from v$pwfile_users;");
 		System.out.println(" grant SYSDBA to (user)");
 		System.out.println(" grant SYSOPER to (user)");
+		System.out.println(" grant SYSASM to (user)");
 		System.out.println("orapwd file=password_file_name password=the_secret_password");
+		System.out.println("*************");
+		System.out.println("roles");
+		System.out.println(" SELECT * FROM DBA_ROLE_PRIVS WHERE GRANTEE='ABC ';");
+		System.out.println("ALTER USER ABC DEFAULT ROLE CONNECT;");
 	}
 
 }
