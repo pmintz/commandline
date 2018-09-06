@@ -37,6 +37,7 @@ public class DBACommands {
 		System.out.println("select * from v$pwfile_users;");
 		System.out.println(" grant SYSDBA to (user)");
 		System.out.println(" grant SYSOPER to (user)");
+		System.out.println("orapwd file=password_file_name password=the_secret_password");
 	}
 
 }
