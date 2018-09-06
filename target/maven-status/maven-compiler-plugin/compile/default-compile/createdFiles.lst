@@ -1,0 +1,9 @@
+commands\WindowsCommands.class
+commands\LinuxCommands.class
+commands\Path.class
+commands\GitCommands.class
+commands\CheckClassPath.class
+commands\CheckPath.class
+commands\DBACommands.class
+commands\ShowAllCommands.class
+commands\Classpath.class
