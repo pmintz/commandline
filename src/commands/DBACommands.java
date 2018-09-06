@@ -43,6 +43,12 @@ public class DBACommands {
 		System.out.println("roles");
 		System.out.println(" SELECT * FROM DBA_ROLE_PRIVS WHERE GRANTEE='ABC ';");
 		System.out.println("ALTER USER ABC DEFAULT ROLE CONNECT;");
+		System.out.println("*************");
+		System.out.println("change sys admin pass");
+		System.out.println("sqlplus /nolog");
+		System.out.println("connect /as sysdba");
+		System.out.println("alter user sys identified by (password)");
+		System.out.println("connect sys as sysdba");
 	}
 
 }
