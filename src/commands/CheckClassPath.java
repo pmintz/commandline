@@ -3,6 +3,8 @@ package commands;
 public class CheckClassPath {
 	
 	public static void main(String[] args) {
+		
+		try {
 		final String mysqlsh = "mysqlsh";
 		final String path = "java.library.path";
 		String[] pathArray;
@@ -24,6 +26,12 @@ public class CheckClassPath {
 			
 		}
 		
+		
+		
 		System.out.println("path contains " + args[0] + ": " + flag);
+		
+		}catch(Exception e){
+			System.out.println("No CLASSPATH variable present");
+		}
 	}
 }
