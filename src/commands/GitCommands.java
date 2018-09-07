@@ -11,7 +11,8 @@ public class GitCommands {
 	System.out.println("*******************");
 	System.out.println("create new repo");
 	System.out.println("git init");
-	System.out.println("git add README.md");
+	//System.out.println("git add README.md");
+	System.out.println("git add .");
 	System.out.println("git commit -m \"first commit\"");
 	System.out.println("git remote add origin https://github.com/pmintz/katalon.git");
 	System.out.println("git push -u origin master");
