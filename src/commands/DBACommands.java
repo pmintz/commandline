@@ -49,6 +49,17 @@ public class DBACommands {
 		System.out.println("connect /as sysdba");
 		System.out.println("alter user sys identified by (password)");
 		System.out.println("connect sys as sysdba");
+		System.out.println("*************");
+		System.out.println("Determine database");
+		System.out.println("select name from V$database");
+		System.out.println("select * from global_name");
+		System.out.println("dbms_utility.get_parameter_value");
+		System.out.println("for example:");
+		System.out.println("variable i number");
+		System.out.println("variable dbname varchar2(30)");
+		System.out.println("begin");
+		System.out.println(":i:=dbms_utility.get_parameter_value('db_name', :i, :dbname)");
+		System.out.println("end");
 	}
 
 }
