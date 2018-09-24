@@ -12,5 +12,6 @@ public class ShowAllCommands {
 		System.out.println("commands.Path");
 		System.out.println("commands.ShowAllCommands");
 		System.out.println("commands.WindowsCommands");
+		System.out.println("commands.JavaCommands");
 	}
 }
